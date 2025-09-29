@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(void)
+{
+int a, b,sum,diff;
+printf("Enter two numbers: \n");
+scanf("%d%d",&a,&b);
+sum = a+b;
+diff = b-a;
+printf("Addition of two number=%d\n", sum);
+printf("Difference of two numbers=%d",diff);
+return 0;
+}
